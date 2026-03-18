@@ -34,7 +34,7 @@ Não precisa instalar nada! É só HTML, CSS e JS puro.
 
 **1. Clone o repositório:**
 ```bash
-git clone https://github.com/SEU_USUARIO/elstore.git
+git clone https://github.com/marcioh972/elstore.git
 ```
 
 **2. Acesse a pasta:**
