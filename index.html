@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Elstore</title>
+</head>
+
+<body>
+    <header> <!-- Menu e navegação-->
+        <div class="logo">Elstore</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contatos</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container"> <!-- tela inicial do site -->
+
+        <div class="techcircle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            <div class="item active">
+                <div class="product-img">
+                    <img src="apple-watch.png" alt="Apple Watch">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Novo Lançamento</p>
+                    <p class="product-name">Apple Wacth Series 10</p>
+                    <p class="descripition">é o mais fino e leve já feito, 10% mais compacto que o Series 9, com
+                        caixas de 42mm ou 46mm em alumínio ou titânio. Destaca-se pela tela OLED ampla com maior
+                        brilho em ângulos inclinados, carregamento ultra-rápido 80% em 30 min e novos recursos de
+                        saúde, incluindo detecção de apneia do sono e sensores de profundidade para mergulho</p>
+                    <button class="btn">Saiba mais</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="list">
+            <div class="item">
+                <div class="product-img">
+                    <img src="air-pods.png" alt="Air Pods">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Novo Lançamento</p>
+                    <p class="product-name">Air Pods</p>
+                    <p class="descripition">Os AirPods são fones de ouvido sem fio da
+                        Apple conhecidos pelo pareamento instantâneo, design ergonômico e integração total ao
+                        ecossistema Apple (iPhone, Mac, Watch). Oferecem som de alta fidelidade, Cancelamento Ativo
+                        de Ruído (em modelos Pro/4), Áudio Espacial personalizado e detecção intra-auricular, com
+                        controles por toque na haste.</p>
+                    <button class="btn">Saiba mais</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="list">
+            <div class="item">
+                <div class="product-img">
+                    <img src="vision-pro.png" alt="Vision Pro">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Alta Peformance</p>
+                    <p class="product-name">Vision Pro</p>
+                    <p class="descripition">O Apple Vision Pro
+                        é um computador espacial revolucionário que mescla conteúdo digital ao mundo físico,
+                        controlado por olhos, mãos e voz. Lançado em 2024, possui displays Micro-OLED (23 milhões de
+                        pixels), sistema dual-chip (M2 e R1) e roda o visionOS, oferecendo experiências imersivas,
+                        produtividade e entretenimento</p>
+                    <button class="btn">Saiba mais</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="arrows">
+            <button class="arrow btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                </svg>
+
+            </button>
+
+            <button class="arrow btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg>
+
+            </button>
+
+
+        </div>
+        <div class="indicators">
+
+
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+
+            </div>
+
+        </div>
+    </main>
+
+
+    <!-- Grid de produtos -->
+    <section class="destaques">
+
+        <div class="destaques-header">
+            <p class="section-tag">Seleção especial</p>
+            <h2 class="section-title">Produtos em Destaque</h2>
+            <p class="section-sub">Os lançamentos mais aguardados, reunidos para você</p>
+        </div>
+
+        <div class="grid-produtos">
+
+            <div class="card">
+                <span class="card-tag">Novo</span>
+                <div class="card-img">
+                    <img src="apple-watch.png" alt="Apple Watch Series 10">
+                </div>
+                <div class="card-info">
+                    <p class="card-categoria">Wearables</p>
+                    <h3 class="card-nome">Apple Watch Series 10</h3>
+                    <p class="card-preco">R$ 4.299</p>
+                    <button class="btn btn-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                        </svg>
+                        Adicionar
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="card-tag destaque">Mais Vendido</span>
+                <div class="card-img">
+                    <img src="air-pods.png" alt="AirPods Pro">
+                </div>
+                <div class="card-info">
+                    <p class="card-categoria">Áudio</p>
+                    <h3 class="card-nome">AirPods Pro</h3>
+                    <p class="card-preco">R$ 2.199</p>
+                    <button class="btn btn-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                        </svg>
+                        Adicionar
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="card-tag premium">Premium</span>
+                <div class="card-img">
+                    <img src="vision-pro.png" alt="Vision Pro">
+                </div>
+                <div class="card-info">
+                    <p class="card-categoria">Computadores</p>
+                    <h3 class="card-nome">Apple Vision Pro</h3>
+                    <p class="card-preco">R$ 29.900</p>
+                    <button class="btn btn-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                        </svg>
+                        Adicionar
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="card-tag">Novo</span>
+                <div class="card-img">
+                    <img src="iphone 16 pro.png" alt="iPhone 16 Pro">
+                </div>
+                <div class="card-info">
+                    <p class="card-categoria">Smartphones</p>
+                    <h3 class="card-nome">iPhone 16 Pro</h3>
+                    <p class="card-preco">R$ 9.499</p>
+                    <button class="btn btn-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                        </svg>
+                        Adicionar
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="destaques-footer">
+            <a href="produtos.html" class="btn btn-outline">Ver todos os produtos →</a>
+        </div>
+
+    </section>
+    <!-- Rodapé -->
+    <footer>
+
+        <div class="footer-grid">
+
+            <div class="footer-col footer-brand">
+                <div class="logo footer-logo">Elstore</div>
+                <p class="footer-desc">A sua loja de tecnologia premium. Os melhores produtos Apple com a melhor
+                    experiência de compra.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-btn" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm.003 1.44c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.47 2.47 0 0 1-.92-.598 2.47 2.47 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.843-.038 1.096-.046 3.232-.046zm0 2.452a4.11 4.11 0 1 0 0 8.22 4.11 4.11 0 0 0 0-8.22zm0 6.775a2.664 2.664 0 1 1 0-5.328 2.664 2.664 0 0 1 0 5.328zm5.23-6.937a.96.96 0 1 1-1.92 0 .96.96 0 0 1 1.92 0z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="social-btn" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="social-btn" aria-label="YouTube">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">Navegação</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">Categorias</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Smartphones</a></li>
+                    <li><a href="#">Wearables</a></li>
+                    <li><a href="#">Áudio</a></li>
+                    <li><a href="#">Computadores</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-title">Suporte</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Meus pedidos</a></li>
+                    <li><a href="#">Trocas e devoluções</a></li>
+                    <li><a href="#">Garantia</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-line"></div>
+            <p class="footer-copy">© 2025 <span>Elstore</span>. Todos os direitos reservados.</p>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
