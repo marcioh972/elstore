@@ -116,11 +116,11 @@ elstore/
 
 Feito por Márcio Henrique
 
-[![GitHub](https://img.shields.io/badge/GitHub-SEU__USUARIO-181717?style=flat&logo=github)](https://github.com/marcioh972)
+[![GitHub](https://img.shields.io/badge/GitHub-marcioh972-181717?style=flat&logo=github)](https://github.com/marcioh972)
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar.
 
