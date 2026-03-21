@@ -4,13 +4,6 @@
 
 ---
 
-##  Preview
-
-<!-- Adicione um screenshot ou gif do projeto aqui -->
-<!-- Exemplo: ![Preview do projeto](./screenshot.png) -->
-
->  Dica: use a extensão **GoFullPage** no Chrome para capturar a tela inteira e adicionar aqui.
-
 ---
 
 ##  Funcionalidades
@@ -28,46 +21,7 @@
 
 ---
 
-## 🚀 Como rodar o projeto
 
-Não precisa instalar nada! É só HTML, CSS e JS puro.
-
-**1. Clone o repositório:**
-```bash
-git clone https://github.com/marcioh972/elstore.git
-```
-
-**2. Acesse a pasta:**
-```bash
-cd elstore
-```
-
-**3. Abra no navegador:**
-```bash
-# Opção 1 — abra direto pelo explorador de arquivos:
-Clique duas vezes no arquivo index.html
-
-# Opção 2 — use o Live Server no VS Code:
-Clique com botão direito em index.html → "Open with Live Server"
-```
-
->  **Importante:** as imagens (`apple-watch.png`, `air-pods.png`, `vision-pro.png`, `ihpne 16 pro`) precisam estar na mesma pasta do `index.html` para aparecerem corretamente.
-
----
-
-##  Estrutura de arquivos
-
-```
-elstore/
-│
-├── index.html       ← estrutura da página
-├── style.css        ← todo o visual e animações
-├── script.js        ← lógica do carrossel
-│
-├── apple-watch.png
-├── air-pods.png
-└── vision-pro.png
-```
 
 ---
 
@@ -102,13 +56,20 @@ elstore/
 
 ## Próximos passos
 
-- [ ] Criar a página `produtos.html` com catálogo completo
-- [ ] Adicionar **filtro de preços** com slider interativo
-- [ ] Implementar **carrinho de compras** com `localStorage`
-- [ ] Criar página de **checkout** com resumo do pedido
+- [ ] Adicionar uma área de login funcional com painel de usuário
+- [ ] Colocar funcionalidade nos botões de produtos
+- [ ] Criar a página **contato**
+- [ ] Implementar banco de dados com PostgreSQL
+- [ ] Implementar autenticação JWT + bcryptv no GO
+- [ ] API de produtos (buscar do banco, não do array JS)
+- [ ] API de pedidos (salvar pedido após pagamento)
+- [ ] Deploy backend com Railway ou Render
+- [ ] Deploy frontend Vercel
 - [ ] Tornar o layout **responsivo** para mobile
 - [ ] Adicionar **animações de scroll** com Intersection Observer
-- [ ] Integrar com uma **API de pagamentos** (ex: Stripe, Mercado Pago)
+- [ ] Integrar com uma **API de pagamentos** (Assas)
+- [ ] Chave Asaas de produção + HTTPS
+- [ ] Painel admin
 
 ---
 
